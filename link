@@ -1,0 +1,10 @@
+LEETCODE: https://leetcode.com/explore/
+Hackererath: https://www.hackerearth.com/practice/
+Hackerrank: https://www.hackerrank.com/dashboard
+
+
+
+Python 
+#round up keeping ending zeros
+print("%.3f" %round(0.100000,3))
+ #0.100
