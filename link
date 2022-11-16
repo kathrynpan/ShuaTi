@@ -8,3 +8,20 @@ Python
 #round up keeping ending zeros
 print("%.3f" %round(0.100000,3))
  #0.100
+
+
+
+SQL 
+#ifnull
+requirements: if not exist such .... then null
+select ifnull([  select ... from ... where...(may not exist)   ], null)   no_from_original_table
+Questions: https://leetcode.com/problems/second-highest-salary/description/
+
+#'rank' as column name
+select .... as 'rank'  no_as_rank_without_''
+
+
+
+SQL 题型
+1. 找某两次‘score’相差小于...的id
+  相关： MySQL Datediff(time_later, time_earlier)  MSSQL Datediff(day,time_earlier, time_later) 
