@@ -25,3 +25,5 @@ select .... as 'rank'  no_as_rank_without_''
 SQL 题型
 1. 找某两次‘score’相差小于...的id
   相关： MySQL Datediff(time_later, time_earlier)  MSSQL Datediff(day,time_earlier, time_later) 
+  https://platform.stratascratch.com/coding/10322-finding-user-purchases?code_type=3
+  
