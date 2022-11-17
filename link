@@ -10,6 +10,17 @@ print("%.3f" %round(0.100000,3))
  #0.100
 
 
+Functional 
+#map(function, list) 
+
+# function '叠加'
+def function1(x):
+    def function2(y):
+        print(x,y)
+    return function2
+
+function1('x')('y')  >>> x y
+
 
 SQL 
 #ifnull
