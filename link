@@ -12,6 +12,13 @@ print("%.3f" %round(0.100000,3))
 
 Functional 
 #map(function, list) 
+map(sum(),[[1,2],[1,3],[1,4]])
+
+把一个值带入一串function的第一个，然后把结果再带入下一个function...a list of function
+from functools import reduce
+def call(x, f):
+    return f(x)
+print(reduce(call, funcs, 96)) #funcs is a list of functions，96 is the value inserted in the first function
 
 # function '叠加'
 def function1(x):
@@ -20,6 +27,7 @@ def function1(x):
     return function2
 
 function1('x')('y')  >>> x y
+
 
 
 SQL 
